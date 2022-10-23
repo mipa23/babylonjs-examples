@@ -155,3 +155,38 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
+
+.demo-table
+{
+	margin: 8px;
+}
+
+.demo-image
+{
+	height: 150px;
+	width: 225px;
+	border: 1px solid #000000;
+	margin: 0px 200px 0px 0px;
+	
+	/* Rounded corners */
+	-moz-border-radius: 15px 15px 15px 15px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+	border-radius: 15px 15px 15px 15px;
+}
+
+.demo-title
+{
+	/* add a bit of padding */
+	font-size: 20px;
+	padding-top: 10px; 
+	padding-bottom: 10px;
+	text-decoration: underline;
+}
+
+.demo-text
+{
+	/* expand to fill width of table */
+	width: 100%; 
+	height: 100%;
+	vertical-align: top;
+}
